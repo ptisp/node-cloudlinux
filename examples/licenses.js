@@ -7,7 +7,7 @@ var config = {
 
 var clexample = new CLINUX(config);
 
-clexample.keyListKC( function(err, data){
+clexample.listLicenses( function(err, data){
   if (err) {
     console.log('ERROR');
     console.log(err);
