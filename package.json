@@ -1,0 +1,35 @@
+{
+  "name": "cloudlinux",
+  "description": "CLOUDLINUX API node client.",
+  "version": "0.0.1",
+  "author": {
+    "name": "PTisp",
+    "email": "dev@ptisp.pt"
+  },
+  "maintainers": [
+    {
+      "name": "p3drompp",
+      "email": "pedro.mpp@gmail.com"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Pedro Pacheco",
+      "email": "pedro.mpp@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ptisp/node-cloudlinux.git"
+  },
+  "keywords": [
+    "cloudlinux"
+  ],
+  "dependencies": {
+    "request": "2.21.x"
+  },
+  "main": "./lib/cloudlinux",
+  "engines": {
+    "node": ">= 0.8"
+  }
+}
