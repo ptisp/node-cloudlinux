@@ -15,3 +15,11 @@ clexample.listLicenses( function(err, data){
     console.log(data);
   }
 });
+clexample.keyListKC( function(err, data){
+  if (err) {
+    console.log('ERROR');
+    console.log(err);
+  } else {
+    console.log(data);
+  }
+});
